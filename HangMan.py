@@ -51,7 +51,7 @@ def display_answer(answer):
 
 def main():
     answer = random.choice(words)
-    hint = ["_"]**len(answer)
+    hint = ["_"]*len(answer)
     wrong_guesses = 0
     guessed_letter = set()
     running = True
@@ -80,12 +80,12 @@ def main():
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU WON!!!")
-            running = False
+            running = false
         elif wrong_guesses => len(hangman_art)-1:
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU LOSE!!")
-            running = False
+            running = false
 
 
 
