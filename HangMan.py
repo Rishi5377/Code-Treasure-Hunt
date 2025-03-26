@@ -85,7 +85,7 @@ def main():
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU LOSE!!")
-            running = false
+            running = False
 
 
 
