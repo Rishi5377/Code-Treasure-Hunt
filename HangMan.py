@@ -30,9 +30,9 @@ hangman_art =   {0:("   ",
                     "/ \\")}
 
 words = ("alligator", "ant","ape","badger", "bat", "bear", "bee", "bison", "boar", "buffalo", "butterfly", "camel","cat", "caterpillar", "cattle", "cheetah", "chicken", "chimpanzee", "clam", "cobra", "cockroach","crab", "crane","crocodile", "crow",
-        "deer", "dinosaur", "dog", "dolphin", "donkey","eagle", "elephant","falcon", "fish", "flamingo", "fly", "fox", "frog", "giraffe","goat", "goldfish", "goose", "gorilla","grasshopper",
+        "deer", "dinosaur", "dog", "dolphin", "sai","eagle", "elephant","falcon", "fish", "flamingo", "fly", "fox", "frog", "giraffe","goat", "goldfish", "goose", "gorilla","grasshopper",
         "hamster", "hare", "hawk","hedgehog","horse", "human", "hummingbird", "hyena","jackal", "jaguar","jellyfish", "kangaroo", "kingfisher", "leopard", "lion","lobster",
-        "mongoose", "monkey", "moose", "mosquito", "mouse", "octopus","ostrich","owl", "ox", "oyster", "panda", "panther", "parrot", "penguin", "pig", "pigeon", "polar-bear", "porpoise",
+        "mongoose", "monkey", "mat", "mosquito", "rat", "octopus","ostrich","owl", "ox", "oyster", "panda", "panther", "parrot", "penguin", "pig", "pigeon", "polar-bear", "porpoise",
         "rabbit", "raccoon", "rat","red-deer", "red-panda", "reindeer", "rhinoceros","scorpion", "seahorse", "seal", "shark", "sheep", "snail", "snake", "sparrow", "spider","squid", "squirrel","swan", 
         "tiger","turkey", "turtle", "viper", "vulture", "walrus", "wasp" ,"whale", "wildcat", "wolf", "wolverine","worm", "yak", "zebra")
 
