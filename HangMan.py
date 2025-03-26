@@ -60,7 +60,7 @@ def main():
         display_hint(hint)
         guess = input("Enter a Letter: ").lower()
         # EDGE CASES FOR THE INPUT 
-        if len(guess) =! 1 or not guess.isalpha():
+        if len(guess) != 1 or not guess.isalpha():
             print("INvalid")
             continue
         if guess in guessed_letter:
@@ -74,18 +74,18 @@ def main():
                 if answer[idx] == guess:
                     hint[idx] = guess
         else :
-            wrong_guesses++
+            wrong_guesses+=1
         # TO CHECK WHETHER THE PLAYER WON OR LOSE
         if "_" not in hint :
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU WON!!!")
-            running = false
-        elif wrong_guesses => len(hangman_art)-1:
+            running = False
+        elif wrong_guesses >= len(hangman_art)-1:
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU LOSE!!")
-            running = false
+            running = False
 
 
 
