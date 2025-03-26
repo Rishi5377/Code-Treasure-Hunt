@@ -74,14 +74,14 @@ def main():
                 if answer[idx] == guess:
                     hint[idx] = guess
         else :
-            wrong_guesses++
+            wrong_guesses+=1
         # TO CHECK WHETHER THE PLAYER WON OR LOSE
         if "_" not in hint :
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU WON!!!")
             running = false
-        elif wrong_guesses => len(hangman_art)-1:
+        elif wrong_guesses <= len(hangman_art)-1:
             dispaly_man(wrong_guesses)
             display_answer(answer)
             print("YOU LOSE!!")
